@@ -1,13 +1,17 @@
+#IMPORTING
+
 import os, json
 import requests
 from dotenv import load_dotenv
 
+#laoding .env
 load_dotenv()
 
-TOKEN = os.getenv("VENDOR_1_TOKEN", "ITSASECRET123")
+TOKEN = os.getenv("VENDOR_1_TOKEN")
 API_URL = os.getenv("VENDOR_1_URL", "http://127.0.0.1:8000/Vendor1/Insurance")
 OUT_FILE = os.getenv("OUT_NDJSON", "vendor1_insurance.ndjson")
 
+# getting url and verifying headers for correct token
 resp = requests.get(
     API_URL,
     headers={"Authorization": f"Bearer {TOKEN}"},
