@@ -23,4 +23,8 @@ The raw table pattern makes it easy to ingest first and transform later.
 ---
 
 
+# HERE IS THE RAW DATA IN SNOWFLAKE.
+<img width="1909" height="958" alt="RAW_INSRUANCE_DATA" src="https://github.com/user-attachments/assets/bc59cff7-b3ae-4c6a-a43c-9337e19c7ef8" />
 
+# HERE IS THE CURATED TRADITONAL TABLE LOOK IN SNOWFLAKE.
+<img width="1906" height="952" alt="CURATED_INSURANCE_DATA" src="https://github.com/user-attachments/assets/8957b62c-50c9-4da3-913f-d1a5bdf8c38a" />
