@@ -22,5 +22,5 @@ The raw table pattern makes it easy to ingest first and transform later.
 
 ---
 
-## Project layout (suggested)
+
 
